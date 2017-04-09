@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  
-  <!--remove-project name="CyanogenMod/android_packages_apps_Calendar" /-->
   <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
-  
-  <project name="lucatib/android_device_samsung_hlte/" path="device/samsung/hlte" remote="github" revision="cm-14.1" />
-  <project name="lucatib/android_device_samsung_hlte-common/" path="device/samsung/hlte-common" remote="github" revision="cm-14.1" />
-  <project name="LineageOS/android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="github" revision="cm-14.1" />
+  <project name="lucatib/cm-android_device_samsung_hlte/" path="device/samsung/hlte" remote="github" revision="cm-14.1" />
+  <project name="lucatib/cm-android_device_samsung_hlte-common/" path="device/samsung/hlte-common" remote="github" revision="cm-14.1" />
   <project name="lucatib/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
-  
+  <project name="lucatib/android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" revision="cm-14.1" />
-  <!--project name="theMuppets/proprietary_vendor_qcom_binaries" path="vendor/qcom/binaries" remote="github" revision="cm-14.1" /-->
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
-  <project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" revision="cm-14.1"/>
+  <project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" revision="cm-14.1" />
 </manifest>
