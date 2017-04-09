@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="LineageOS/android_packages_apps_CMUpdater" />
-  <project name="lucatib/cm-android_device_samsung_hlte/" path="device/samsung/hlte" remote="github" revision="cm-14.1" />
-  <project name="lucatib/cm-android_device_samsung_hlte-common/" path="device/samsung/hlte-common" remote="github" revision="cm-14.1" />
+  <project name="lucatib/android_device_samsung_hlte/" path="device/samsung/hlte" remote="github" revision="cm-14.1" />
+  <project name="lucatib/android_device_samsung_hlte-common/" path="device/samsung/hlte-common" remote="github" revision="cm-14.1" />
   <project name="lucatib/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-14.1" />
   <project name="lucatib/android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-14.1" />
